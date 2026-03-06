@@ -116,7 +116,7 @@ pip install -r requirements.txt
 
 
 - **Feature Importance do Random Forest**
-![alt text](img/grafico_correlacoes_.png)
+![alt text](img/grafico_importancia_categoria.png)
 
 
 ## 📌 Tecnologias Utilizadas
