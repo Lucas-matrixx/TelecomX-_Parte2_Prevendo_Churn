@@ -33,13 +33,12 @@ Este projeto tem como objetivo **identificar clientes com maior risco de evasão
    - Modelos utilizados:
      - Random Forest Classifier  
      - K-Nearest Neighbors (KNN)  
-     - Logistic Regression (benchmark)
+    
    - Hiperparâmetros otimizados via `GridSearchCV`  
-   - Avaliação com cross-validation (`KFold`)  
+   - Avaliação com cross-validation (`StratifiedKFold`)  
 
 3. **Avaliação**
    - Métricas: Accuracy, Precision, Recall, F1-score  
-   - Matriz de confusão e curva ROC  
 
 4. **Interpretabilidade**
    - Feature Importance (Random Forest)  
@@ -67,16 +66,44 @@ Este projeto tem como objetivo **identificar clientes com maior risco de evasão
 1. Clonar o repositório:
 
 ```bash
-git clone https://github.com/SeuUsuario/churn-analysis.git
-cd churn-analysis
+git clone https://github.com/Lucas-matrixx/TelecomX-_Parte2_Prevendo_Churn.git
 
+```
+## Instruções de instalação 
 
-2. Criar ambiente virtual e instalar dependências:
+✔️ 1. Crie (ou ative) seu ambiente virtual no terminal seguindo uma das opções abaixo:
 
+- Windows - com Git bash
+```python
 python -m venv venv
-source venv/bin/activate       # Linux / Mac
-venv\Scripts\activate          # Windows
+```
+```python
+source ./venv/Scripts/activate
+```
+- Windows - com PowerSheel
+```python
+python -m venv venv
+```
+```python
+venv\Scripts\Activate.ps1
+```
+- Linux/Mac
+```python
+python3 -m venv venv
+```
+```python
+source venv/bin/activate
+```
+
+
+---
+✔️ 2. Instale as dependências do requirements.txt
+
+Com o ambiente ativo:
+
+```python
 pip install -r requirements.txt
+```
 
 📊 Visualizações
 
