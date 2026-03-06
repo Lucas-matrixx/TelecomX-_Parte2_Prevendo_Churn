@@ -13,9 +13,11 @@ Este projeto tem como objetivo **identificar clientes com maior risco de evasão
 ## 🗂 Estrutura do Projeto
 
 - data
-    -[text](data/dados_normalizados_ml.csv)
+    - dados_normalizados_ml.csv
 - model
+    - modelo_rfb.pkl
 - notebook
+    - TelecomX_Analise_Evasão_e_Clientes.ipynb
 
 
 
