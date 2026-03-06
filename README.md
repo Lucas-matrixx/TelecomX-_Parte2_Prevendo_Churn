@@ -105,29 +105,33 @@ Com o ambiente ativo:
 pip install -r requirements.txt
 ```
 
-📊 Visualizações
+## 📊 Visualizações
 
-Taxa de evasão por tipo de contrato e faixa de permanência
-
-Frequência relativa de clientes ativos (não evadiram)
-
-Feature Importance do Random Forest
+- **Taxa de evasão por tipo de contrato e faixa de permanência**
+![alt text](img/faixa_perm_contrato.png)
 
 
-📌 Tecnologias Utilizadas
+- **Matriz de correlação**
+![alt text](img/grafico_correlacoes_.png)
 
-Python 3.11+
 
-Bibliotecas: pandas, numpy, scikit-learn, seaborn, matplotlib
+- **Feature Importance do Random Forest**
+![alt text](img/grafico_correlacoes_.png)
 
-Git e GitHub para versionamento e compartilhamento
 
-💡 Conclusão
+## 📌 Tecnologias Utilizadas
+
+- Python 3.11+
+
+- Bibliotecas: pandas, numpy, scikit-learn, seaborn, matplotlib
+
+
+## 💡 Conclusão
 
 O modelo Random Forest permitiu identificar os fatores mais críticos de churn e direcionar estratégias de retenção.
 Foco nos primeiros meses, tipo de contrato e tempo de permanência é essencial para reduzir a evasão e aumentar a fidelidade do cliente.
 
-📎 Contato
+## 📎 Contato
 
 Projeto desenvolvido por: Lucas Rodrigues
 GitHub: https://github.com/Lucas-matrixx
